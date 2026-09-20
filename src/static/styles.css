@@ -16,12 +16,29 @@ body {
 }
 
 header {
+  position: relative;
   text-align: center;
   padding: 20px 0;
   margin-bottom: 30px;
   background-color: #1a237e;
   color: white;
   border-radius: 5px;
+}
+
+.account-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.account-controls span {
+  font-size: 14px;
+}
+
+.login-panel {
+  margin: 0 auto 30px;
 }
 
 header h1 {
